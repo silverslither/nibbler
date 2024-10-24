@@ -47,6 +47,8 @@ exports.defaults = {
 	"active_square": "#66aaaa",
 	"move_squares_with_alpha": "#ffff0026",
 
+	"piece_drag_opacity": "0%",
+
 	"best_colour": "#66aaaa",
 	"good_colour": "#66aa66",
 	"bad_colour": "#cccc66",

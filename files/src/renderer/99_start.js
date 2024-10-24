@@ -75,7 +75,7 @@ for (let y = 0; y < 8; y++) {
 		tr1.appendChild(td1);
 		tr2.appendChild(td2);
 		td2.addEventListener("dragstart", (event) => {
-			td2.style.opacity = "0%";
+			td2.style.opacity = config.piece_drag_opacity;
 			dragImg.src = td2.style.backgroundImage.slice(5, -2);
 			dragDiv.style.width = dragDiv.style.height = config.square_size + "px";
 			dragDiv.style.transform = "translate(-" + config.square_size + "px)";
